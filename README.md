@@ -9,10 +9,7 @@ This project focuses on data preprocessing and building a machine learning model
 - [Data Preprocessing](#data-preprocessing)
 - [Results and Outputs](#results-and-outputs)
 - [Contributing](#contributing)
-- [License](#license)
 - [Authors](#authors)
-- [Acknowledgments](#acknowledgments)
-- [Contact Information](#contact-information)
 
 ## Installation
 
@@ -28,7 +25,7 @@ Install the required packages:
 bash
 Copy code
 pip install -r requirements.txt
-Usage
+## Usage
 First, ensure you have completed the installation steps.
 
 Run the data preprocessing script:
@@ -45,10 +42,10 @@ Copy code
 python train_model.py
 The model is trained and evaluated, and the results are displayed.
 
-Data Sources
+## Data Sources
 The dataset used in this project is available at [insert data source link]. You can download the dataset from there and place it in the project directory as dataset.csv.
 
-Data Preprocessing
+## Data Preprocessing
 The data preprocessing script, data_preprocessing.py, performs the following steps:
 
 Loads the dataset from dataset.csv.
@@ -56,7 +53,7 @@ Checks for missing values and fills them with the mean.
 Removes duplicate rows.
 Identifies and removes outliers using Z-scores.
 Prepares the data for training.
-Results and Outputs
+## Results and Outputs
 After running the train_model.py script, you will see the following results:
 
 Model accuracy
@@ -64,7 +61,7 @@ Model precision
 Model recall
 Model F1 score
 ROC-AUC score
-Contributing
+## Contributing
 If you'd like to contribute to this project, please follow these steps:
 
 Fork the repository on GitHub.
@@ -72,7 +69,6 @@ Create a new branch with a descriptive name: git checkout -b feature/my-feature.
 Make your changes and commit them: git commit -m "Add my feature".
 Push your changes to your fork: git push origin feature/my-feature.
 Create a pull request on the original repository.
-License
-This project is licensed under the [Insert License Name] License - see the LICENSE.md file for details.
 
-Authors: Temirlan Meiramkhanov, Kuanysh Bilal, Arailym Yntalbekova
+## Authors
+Temirlan Meiramkhanov, Kuanysh Bilal, Arailym Yntalbekova
